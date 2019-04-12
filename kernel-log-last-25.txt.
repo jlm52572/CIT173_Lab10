@@ -1,0 +1,26 @@
+-- Logs begin at Mon 2019-04-08 05:29:46 PDT, end at Tue 2019-04-09 19:21:06 PDT. --
+Apr 09 18:25:04 localhost.localdomain kernel: IPv6: ADDRCONF(NETDEV_CHANGE): ens33: link becomes ready
+Apr 09 18:25:05 localhost.localdomain kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Apr 09 18:25:05 localhost.localdomain kernel: tun: Universal TUN/TAP device driver, 1.6
+Apr 09 18:25:05 localhost.localdomain kernel: virbr0: port 1(virbr0-nic) entered blocking state
+Apr 09 18:25:05 localhost.localdomain kernel: virbr0: port 1(virbr0-nic) entered disabled state
+Apr 09 18:25:05 localhost.localdomain kernel: device virbr0-nic entered promiscuous mode
+Apr 09 18:25:05 localhost.localdomain kernel: virbr0: port 1(virbr0-nic) entered blocking state
+Apr 09 18:25:05 localhost.localdomain kernel: virbr0: port 1(virbr0-nic) entered listening state
+Apr 09 18:25:06 localhost.localdomain kernel: virbr0: port 1(virbr0-nic) entered disabled state
+Apr 09 18:25:16 localhost.localdomain kernel: Bluetooth: RFCOMM TTY layer initialized
+Apr 09 18:25:16 localhost.localdomain kernel: Bluetooth: RFCOMM socket layer initialized
+Apr 09 18:25:16 localhost.localdomain kernel: Bluetooth: RFCOMM ver 1.11
+Apr 09 18:25:17 localhost.localdomain kernel: fuse init (API version 7.28)
+Apr 09 18:25:18 localhost.localdomain kernel: rfkill: input handler disabled
+Apr 09 18:25:19 localhost.localdomain kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+Apr 09 18:25:19 localhost.localdomain kernel: ISO 9660 Extensions: RRIP_1991A
+Apr 09 18:37:30 localhost.localdomain kernel: e1000: ens33 NIC Link is Down
+Apr 09 18:39:14 localhost.localdomain kernel: e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 09 18:39:16 localhost.localdomain kernel: e1000: ens33 NIC Link is Down
+Apr 09 18:39:22 localhost.localdomain kernel: e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 09 19:12:58 localhost.localdomain systemd[1]: Stopping Journal Service...
+Apr 09 19:12:58 localhost.localdomain systemd-journald[995]: Received SIGTERM from PID 1 (systemd).
+Apr 09 19:12:58 localhost.localdomain systemd[1]: Stopped Journal Service.
+Apr 09 19:12:58 localhost.localdomain systemd[1]: Starting Journal Service...
+Apr 09 19:12:58 localhost.localdomain systemd[1]: Started Journal Service.

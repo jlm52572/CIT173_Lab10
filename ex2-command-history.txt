@@ -1,0 +1,236 @@
+    1  sudo yum update
+    2  sudo yum install
+    3  exit
+    4  shutdown 
+    5  cd /var
+    6  ls
+    7  cat log
+    8  cd log
+    9  ls
+   10  cd journal/
+   11  ls
+   12  cat
+   13  cat de6b2a2d43e847a38620eb6161a1e60f
+   14  cd de6b2a2d43e847a38620eb6161a1e60f
+   15  ls
+   16  cd ../..
+   17  ls
+   18  ls .*
+   19  man ls
+   20  ls -a .*
+   21  journalctl
+   22  journalctl tail -n 25
+   23  cd ..
+   24  exit
+   25  date
+   26  sudo vi /etc/systemd/journald.conf 
+   27  man shutdown
+   28  shutdown -r now
+   29  cat journalctl
+   30  sudo cat journalctl
+   31  exit
+   32  sudo yum rsyslog
+   33  find rsyslog
+   34  install rsyslog
+   35  cd /var/
+   36  ls
+   37  cd /log
+   38  sudo cd /log
+   39  cat log
+   40  cd log
+   41  ls
+   42  vim journal/
+   43  LLexit
+   44  vim /etc/system/journald.conf
+   45  sudo vim /etc/system/journald.conf
+   46  cd /etc/system/journald.conf
+   47  sudo cd /etc/system/journald.conf
+   48  sudo cd /etc/system
+   49  cd /etc/system
+   50  cd /etc
+   51  ls
+   52  cd /systemd
+   53  sudo cd /etc/systemd/journald.conf
+   54  sudo vim /etc/systemd/journald.conf
+   55  $ sudo systemctl restart system-journald
+   56  cd ..
+   57  $ sudo systemctl restart system-journald
+   58  cd ..
+   59  exit
+   60  $ sudo systemctl restart system-journald
+   61  $ sudo systemctl restart systemd-journald
+   62  systemctl
+   63  sudo systemctl restart systemd-journald
+   64  sudo yum -y install rsyslog
+   65  systemctl enable rsyslog
+   66  systemctl start rsyslog
+   67  journalctl -n 25 -k
+   68  journalctl -n 25 -k > ~/CIT173_Lab10/kernel-log-last-25.txt.
+   69  logger "Help I have fallen and I can't get up"
+   70  ls syslogd
+   71  sudo ls syslogd
+   72  sudo ls syslog
+   73  find syslog
+   74  exit
+   75  cd /etc/
+   76  ls
+   77  cd systemd
+   78  ls
+   79  cd system
+   80  ls
+   81  cp syslog > ~/CIT173_Lab10/my-system-log.txt
+   82  man cp
+   83  cd ../..
+   84  cp syslog > ~/CIT173_Lab10/my-system-log.txt
+   85  cp syslog -r > ~/CIT173_Lab10/my-system-log.txt
+   86  cat syslog 
+   87  exit
+   88  cd /var 
+   89  ls
+   90  cd log
+   91  ls
+   92  cd ..
+   93  cd CIT173_Lab10/
+   94  ls
+   95  vim my-system-log.txt 
+   96  vim kernel-log-last-25.txt. 
+   97  man logger
+   98  route
+   99  cd ..
+  100  traceroute
+  101  echo rsyslog
+  102  pwd rsyslog
+  103  exit
+  104  sudo vim /etc/systemd
+  105  sudo vi /etc/systemd
+  106  sudo nano /etc/systemd
+  107  sudo yum nano
+  108  sudo systemctl restart systemd-journald
+  109  sudo yum -y install rsyslog
+  110  systemctl enable rsyslog
+  111  systemctl start rsyslog
+  112  ls
+  113  cd CIT173_Lab10/
+  114  ls
+  115  cd ..
+  116  cd CIT173_Lab10/
+  117  ls
+  118  cd ..
+  119  logger --journald <<end
+  120  message="Help! I've fallen and I can't get up!"
+  121  end
+  122  cd /var/system/log
+  123  ls /var/system/log
+  124  cp syslog -r > ~/CIT173_Lab10/my-system-log.txt
+  125  echo syslog
+  126  vi syslog
+  127  sudo vi syslog
+  128  find syslog
+  129  journalctl | tail -n 50
+  130  logger --journald <<end
+  131  message="Help! I've fallen and I can't get up!"
+  132  end
+  133  logger --journald <<end
+  134  MESSAGE="Help! I've fallen and I can't get up!"
+  135  end
+  136  journalctl | tail -n 50
+  137  cp syslog -r > ~/CIT173_Lab10/my-system-log.txt
+  138  cp rsyslog -r > ~/CIT173_Lab10/my-system-log.txt
+  139  journalctl -q | tail -n 50 ~/CIT173_Lab10
+  140  journalctl -q | tail -n 50 ~/CIT173_Lab10/my-system-log.txt
+  141  journalctl -q | tail -n 50 > ~/CIT173_Lab10/my-system-log.txt
+  142  cp /etc/rsyslog.conf ~/CIT173_Lab10/rsyslog.conf
+  143  nano rsyslog.conf
+  144  sudo vi rsyslog.conf
+  145  nano
+  146  nano rsyslog.conf
+  147  sudo nano /etc/rsyslog.conf
+  148  reboot
+  149  ls
+  150  ls /var/log
+  151  sudo cat /var/log
+  152  sudo cat /var/log/all-info.log
+  153  cp /etc/rsyslog.conf ~/CIT173_Lab10/rsyslog.conf
+  154  ls CIT173_Lab10/
+  155  cat rsyslog.conf
+  156  cat /CIT173_Lab10/rsyslog.conf
+  157  sudo chown jlm ~/CIT173_Lab10/*.log
+  158  cd CIT173_Lab10/
+  159  ls
+  160  cat rsyslog.conf 
+  161  cd ..
+  162  reboot
+  163  cd CIT173_Lab10/
+  164  ls
+  165  cat rsyslog.conf 
+  166  ls
+  167  cd ..
+  168  sudo chown jlm ~/CIT173_Lab10/*.log
+  169  ls --all ~/CIT173_Lab10/
+  170  ls -al ~/CIT173_Lab10/
+  171  ls -al ~/CIT173_Lab10/*
+  172  ls -al ~/CIT173_Lab10/.*
+  173  ls -al ~/CIT173_Lab10
+  174  ls -al ~/CIT173_Lab10/
+  175  ls /etc/log
+  176  ls /var/log
+  177  cp /var/log/all-* ~/CIT173_Lab10/.
+  178* 
+  179  ls /CIT173_Lab10
+  180  ls
+  181  ls CIT173_Lab10/
+  182  reboot
+  183  cat CIT173_Lab10/
+  184  cat CIT173_Lab10/all-info.log 
+  185  sudo cat CIT173_Lab10/all-info.log 
+  186  sudo cat CIT173_Lab10/all-warning.log 
+  187  cp /var/log/all-* ~/CIT173_Lab10/.
+  188  sudo cp /var/log/all-* ~/CIT173_Lab10/.
+  189  cd CIT173_Lab10/'
+
+  190  cd CIT173_Lab10/
+  191  ls
+  192  cat all-info.log 
+  193  sudo cat all-info.log 
+  194  cd ..
+  195  sudo cp /var/log/all-* ~/CIT173_Lab10/.
+  196  cd CIT173_Lab10/
+  197  cat *.log
+  198  sudo cat *.log
+  199  cd ..
+  200  date
+  201  sudo hwclock -w
+  202  sudo hwclock -r
+  203  sudo date --set="1 JAN 1970 00:00:00"
+  204  date
+  205  sudo yum ntpd
+  206  ntpd
+  207  sudo hwclock -r
+  208  date
+  209  sudo date --set="11 APR 2019 00:00:00"
+  210  date
+  211  ntpd
+  212  date
+  213  sudo date --set="11 APR 2019"
+  214  date
+  215  timedatectl set-ntp true
+  216  date
+  217  sudo date --set="1 JAN 1970 00:00:00"
+  218  sudo nano /etc/ntp.conf 
+  219  date
+  220  sudo systemctl start ntpd
+  221  sudo systemctl status ntpd
+  222  sudo date --set="11 APR 2019 00:00:00"
+  223  sudo systemctl start ntpd
+  224  sudo systemctl status ntpd
+  225  date
+  226  timedatectl set-ntp true
+  227  date
+  228  sudo systemctl start ntpd
+  229  timedatectl set-ntp true
+  230  date
+  231  cp /etc/ntp.conf ~/CIT173_Lab10/.
+  232  cd CIT173_Lab10/
+  233  ls
+  234  cd ..
+  235  history > ~/CIT173_Lab10/ex2-command-history.txt

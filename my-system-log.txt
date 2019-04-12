@@ -1,0 +1,50 @@
+Apr 11 19:25:53 localhost.localdomain NetworkManager[1464]: <info>  [1555035953.0825] device (ens33): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Apr 11 19:25:53 localhost.localdomain NetworkManager[1464]: <info>  [1555035953.0830] device (ens33): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Apr 11 19:25:53 localhost.localdomain NetworkManager[1464]: <info>  [1555035953.0832] device (ens33): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Apr 11 19:25:53 localhost.localdomain NetworkManager[1464]: <info>  [1555035953.0835] manager: NetworkManager state is now CONNECTED_GLOBAL
+Apr 11 19:25:53 localhost.localdomain avahi-daemon[1217]: New relevant interface ens33.IPv4 for mDNS.
+Apr 11 19:25:53 localhost.localdomain avahi-daemon[1217]: Registering new address record for 192.168.120.154 on ens33.IPv4.
+Apr 11 19:25:53 localhost.localdomain NetworkManager[1464]: <info>  [1555035953.0850] policy: set 'ens33' (ens33) as default for IPv4 routing and DNS
+Apr 11 19:25:53 localhost.localdomain dhclient[4030]: bound to 192.168.120.154 -- renewal in 718 seconds.
+Apr 11 19:25:53 localhost.localdomain dnsmasq[1828]: reading /etc/resolv.conf
+Apr 11 19:25:53 localhost.localdomain dnsmasq[1828]: using nameserver 192.168.120.2#53
+Apr 11 19:25:53 localhost.localdomain NetworkManager[1464]: <info>  [1555035953.0876] device (ens33): Activation: successful, device activated.
+Apr 11 19:25:53 localhost.localdomain nm-dispatcher[4019]: req:2 'up' [ens33]: new request (3 scripts)
+Apr 11 19:25:53 localhost.localdomain nm-dispatcher[4019]: req:2 'up' [ens33]: start running ordered scripts...
+Apr 11 19:25:53 localhost.localdomain systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+Apr 11 19:25:53 localhost.localdomain chronyd[1274]: Source 64.62.206.99 online
+Apr 11 19:25:53 localhost.localdomain chronyd[1274]: Source 204.11.201.12 online
+Apr 11 19:25:53 localhost.localdomain chronyd[1274]: Source 192.111.144.114 online
+Apr 11 19:25:53 localhost.localdomain chronyd[1274]: Source 173.230.149.23 online
+Apr 11 19:25:55 localhost.localdomain kernel: e1000: ens33 NIC Link is Down
+Apr 11 19:25:59 localhost.localdomain kernel: e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1562] device (ens33): carrier: link connected
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1565] device (ens33): DHCPv4 lease renewal requested
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1662] dhcp4 (ens33): canceled DHCP transaction, DHCP client pid 4030
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1663] dhcp4 (ens33): state changed bound -> done
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1669] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1683] dhcp4 (ens33): dhclient started with pid 4052
+Apr 11 19:25:59 localhost.localdomain dhclient[4052]: DHCPREQUEST on ens33 to 255.255.255.255 port 67 (xid=0xa2e7f566)
+Apr 11 19:25:59 localhost.localdomain dhclient[4052]: DHCPACK from 192.168.120.254 (xid=0xa2e7f566)
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1936] dhcp4 (ens33):   address 192.168.120.154
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1937] dhcp4 (ens33):   plen 24 (255.255.255.0)
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1937] dhcp4 (ens33):   gateway 192.168.120.2
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1937] dhcp4 (ens33):   lease time 1800
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1937] dhcp4 (ens33):   nameserver '192.168.120.2'
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1937] dhcp4 (ens33):   domain name 'localdomain'
+Apr 11 19:25:59 localhost.localdomain NetworkManager[1464]: <info>  [1555035959.1937] dhcp4 (ens33): state changed unknown -> bound
+Apr 11 19:25:59 localhost.localdomain nm-dispatcher[4019]: req:3 'dhcp4-change' [ens33]: new request (3 scripts)
+Apr 11 19:25:59 localhost.localdomain nm-dispatcher[4019]: req:3 'dhcp4-change' [ens33]: start running ordered scripts...
+Apr 11 19:25:59 localhost.localdomain dhclient[4052]: bound to 192.168.120.154 -- renewal in 869 seconds.
+Apr 11 19:26:09 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 11 19:28:02 localhost.localdomain dbus-daemon[2200]: [session uid=1000 pid=2200] Activating service name='org.gnome.Nautilus' requested by ':1.13' (uid=1000 pid=2302 comm="/usr/bin/gnome-shell " label="unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023")
+Apr 11 19:28:02 localhost.localdomain dbus-daemon[2200]: [session uid=1000 pid=2200] Successfully activated service 'org.gnome.Nautilus'
+Apr 11 19:28:02 localhost.localdomain dbus-daemon[1212]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.559' (uid=1000 pid=4080 comm="/usr/bin/nautilus --gapplication-service " label="unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023")
+Apr 11 19:28:02 localhost.localdomain systemd[1]: Starting Hostname Service...
+Apr 11 19:28:03 localhost.localdomain dbus-daemon[1212]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Apr 11 19:28:03 localhost.localdomain systemd[1]: Started Hostname Service.
+Apr 11 19:28:03 localhost.localdomain audit[1]: SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 11 19:28:04 localhost.localdomain chronyd[1274]: Selected source 64.62.206.99
+Apr 11 19:28:04 localhost.localdomain chronyd[1274]: System clock wrong by -1.697650 seconds, adjustment started
+Apr 11 19:28:33 localhost.localdomain audit[1]: SERVICE_STOP pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+Apr 11 19:28:36 localhost.localdomain nautilus[4080]: gtk_revealer_set_reveal_child: assertion 'GTK_IS_REVEALER (revealer)' failed
